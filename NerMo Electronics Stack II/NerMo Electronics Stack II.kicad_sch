@@ -834,40 +834,50 @@
 		(uuid "c7b1bb9d-3427-498f-adc3-1fc685b5d3e1")
 	)
 	(junction
-		(at 69.85 102.87)
+		(at 82.55 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0ed6b7c7-42f9-410a-9200-13bfba790ad6")
-	)
-	(junction
-		(at 69.85 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2cfccfe1-4178-4b6c-871f-73c5aed14fa6")
-	)
-	(junction
-		(at 82.55 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "313facb3-76a9-4532-a3e4-2284fcc75c39")
+		(uuid "2f12cadd-104b-4738-8e34-a416a2a6eefb")
 	)
 	(junction
 		(at 69.85 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6d2f71dd-0a18-4725-8c3d-9a488421c776")
+		(uuid "3b10b7b8-613c-4bf4-abd4-fde8359ea754")
 	)
 	(junction
-		(at 82.55 102.87)
+		(at 82.55 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "98d31ce3-1874-4663-b9f0-4e73f86f2cdc")
+		(uuid "745de89b-3496-4325-8051-8d82ed1988ea")
 	)
 	(junction
 		(at 82.55 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a8ccc4dc-c624-4b90-8ee2-096695772c3b")
+		(uuid "830aa4ee-7988-44f3-b2f5-df482e44af71")
+	)
+	(junction
+		(at 69.85 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b23ae386-03bb-4d44-98e9-0d5ed69040b6")
+	)
+	(junction
+		(at 69.85 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0c2c3e8-27cd-4f76-b237-7d0024c911f9")
+	)
+	(wire
+		(pts
+			(xy 82.55 102.87) (xy 82.55 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "000650c7-ea3e-46ef-88d4-ba16517e765a")
 	)
 	(wire
 		(pts
@@ -877,7 +887,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "095f15f9-8172-4861-9736-05e9a34df825")
+		(uuid "080532a7-533d-4c8a-bfd4-18f64ea758dc")
 	)
 	(wire
 		(pts
@@ -891,13 +901,23 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 102.87) (xy 69.85 100.33)
+			(xy 69.85 102.87) (xy 69.85 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4357ec7f-5540-4b68-ac32-570130e61b3b")
+		(uuid "12a31468-8108-4942-995c-ce3bf10419b1")
+	)
+	(wire
+		(pts
+			(xy 82.55 105.41) (xy 82.55 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42dc6e48-8add-4920-9055-a357e13b7fa4")
 	)
 	(wire
 		(pts
@@ -911,43 +931,23 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 102.87) (xy 82.55 105.41)
+			(xy 69.85 100.33) (xy 69.85 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61e5e6e7-12ab-433f-9c36-1f290b2dd0cd")
+		(uuid "731c0524-1db2-404f-979d-e62ba9379069")
 	)
 	(wire
 		(pts
-			(xy 69.85 102.87) (xy 69.85 105.41)
+			(xy 69.85 105.41) (xy 69.85 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8cadecc5-4131-420e-ad5a-e3e7a529fe07")
-	)
-	(wire
-		(pts
-			(xy 69.85 107.95) (xy 69.85 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4bcc359-6359-484a-a314-9de147c967ec")
-	)
-	(wire
-		(pts
-			(xy 82.55 105.41) (xy 82.55 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f15fa23d-27fc-466d-a5a7-d5cf667f1fe2")
+		(uuid "9e3d887d-0b22-4f09-8646-023f48122d5f")
 	)
 	(label "SCL"
 		(at 69.85 95.25 180)
@@ -1058,13 +1058,12 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
-		(at 74.93 100.33 0)
+		(at 77.47 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "390f9868-8001-4592-ae5e-42d9272a1a08")
 		(property "Reference" "J2"
 			(at 76.2 88.9 0)
@@ -1083,7 +1082,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x06_P1.27mm_Vertical"
-			(at 74.93 100.33 0)
+			(at 77.47 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1092,7 +1091,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 100.33 0)
+			(at 77.47 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1101,7 +1100,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 74.93 100.33 0)
+			(at 77.47 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1146,7 +1145,7 @@
 			(uuid "d11e5b02-c96e-4107-9007-b9ca0106a641")
 		)
 		(instances
-			(project ""
+			(project "NerMo Electronics Stack II"
 				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c"
 					(reference "J2")
 					(unit 1)
