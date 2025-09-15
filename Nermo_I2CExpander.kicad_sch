@@ -354,167 +354,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1777,18 +1616,6 @@
 		(uuid 3f60e195-2e51-452a-9757-db9d1dfffe7c)
 	)
 	(rectangle
-		(start 226.06 116.84)
-		(end 246.38 162.56)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 60507614-0e06-485e-9bf9-420deac43847)
-	)
-	(rectangle
 		(start 20.32 19.05)
 		(end 246.38 107.95)
 		(stroke
@@ -1883,16 +1710,6 @@
 			)
 		)
 		(uuid "bde724f6-7e56-4139-b8c3-4f1949d44ee4")
-	)
-	(text "Bulk Filtering Capacitor"
-		(exclude_from_sim no)
-		(at 237.236 115.824 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cf59979a-6fd0-4c4e-8128-becb92e994ee")
 	)
 	(text "Address Pulldown"
 		(exclude_from_sim no)
@@ -2346,16 +2163,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 149.86) (xy 234.95 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a7f92e5-8457-408a-8fdb-1aeb1990949a")
-	)
-	(wire
-		(pts
 			(xy 146.05 171.45) (xy 137.16 171.45)
 		)
 		(stroke
@@ -2533,16 +2340,6 @@
 			(type default)
 		)
 		(uuid "57d23b3c-ba0a-413e-8af9-4049703115be")
-	)
-	(wire
-		(pts
-			(xy 238.76 129.54) (xy 234.95 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e3a2e5a-dd7a-4154-8f0c-d62fefee814c")
 	)
 	(wire
 		(pts
@@ -2923,16 +2720,6 @@
 			(type default)
 		)
 		(uuid "a6fa40d0-8afc-49c8-b4d1-3cced5401937")
-	)
-	(wire
-		(pts
-			(xy 234.95 129.54) (xy 234.95 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a773b784-268e-4866-8585-02861876e1cc")
 	)
 	(wire
 		(pts
@@ -3423,16 +3210,6 @@
 			(justify left bottom)
 		)
 		(uuid "23355506-4a74-4213-9c20-755000a561ff")
-	)
-	(label "VCC"
-		(at 238.76 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "24d24f83-2650-4ebe-a659-85f12d4a2fcf")
 	)
 	(label "VCC"
 		(at 128.27 182.88 180)
@@ -4169,6 +3946,12 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "R12")
 					(unit 1)
@@ -4236,6 +4019,12 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "#PWR059")
 					(unit 1)
@@ -4301,6 +4090,12 @@
 			(uuid "4777c0c7-6555-4922-ba3e-6e9c4fd0a857")
 		)
 		(instances
+			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "#PWR016")
@@ -4368,6 +4163,12 @@
 			(uuid "66ebd244-eb22-4d3f-9c0d-ff412463103f")
 		)
 		(instances
+			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "#PWR038")
@@ -4437,6 +4238,12 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "JP5")
 					(unit 1)
@@ -4472,7 +4279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 114.3 53.34 0)
 			(effects
 				(font
@@ -4513,95 +4320,15 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
-				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
 					(reference "J8")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 101.6 68.58 270)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1774e395-028c-4d00-82f3-b980aa55b6c1")
-		(property "Reference" "RN2"
-			(at 101.6 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 101.6 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
-			(at 101.6 66.548 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 101.6 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "7af31289-7b5b-4a34-837c-21089e07a998")
-		)
-		(pin "6"
-			(uuid "f91bc95d-199d-469e-8b0a-aaf31c4e134c")
-		)
-		(pin "1"
-			(uuid "24279ff9-a13c-41a8-9b1a-5f31d8e03d9a")
-		)
-		(pin "2"
-			(uuid "d906ca64-7f5e-44c4-847a-62957032a083")
-		)
-		(pin "3"
-			(uuid "6321e8b8-37d4-4ec4-9396-b0eadcc0d32b")
-		)
-		(pin "8"
-			(uuid "b771d37d-6d8c-447e-bfea-722c8284b70e")
-		)
-		(pin "5"
-			(uuid "4bd1c355-12c9-4c9f-9f6f-acff329e4d70")
-		)
-		(pin "4"
-			(uuid "16d176cc-dfdd-4c8a-98bb-51e438cff424")
-		)
-		(instances
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
-					(reference "RN2")
-					(unit 3)
+					(reference "J8")
+					(unit 1)
 				)
 			)
 		)
@@ -4665,6 +4392,12 @@
 			(uuid "de668833-5a70-4a1e-a2a9-8bf4ef380409")
 		)
 		(instances
+			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "R14")
@@ -4733,6 +4466,12 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "#PWR061")
 					(unit 1)
@@ -4742,14 +4481,100 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 158.75 88.9 270)
+		(at 101.6 88.9 90)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "239a677c-6ed5-448e-865c-a657f9c2eab2")
+		(uuid "23d9bfdb-15f1-4a03-810a-c22d06a09457")
+		(property "Reference" "RN2"
+			(at 101.6 82.6112 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 101.6 85.1512 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 101.6 90.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "7af31289-7b5b-4a34-837c-21089e07a999")
+		)
+		(pin "6"
+			(uuid "45258135-f3a5-44fe-86f2-b6e3e0fc381c")
+		)
+		(pin "1"
+			(uuid "24279ff9-a13c-41a8-9b1a-5f31d8e03d9b")
+		)
+		(pin "2"
+			(uuid "d906ca64-7f5e-44c4-847a-62957032a084")
+		)
+		(pin "3"
+			(uuid "20a074b5-f367-4e70-8d3f-6df84ad7961a")
+		)
+		(pin "8"
+			(uuid "b771d37d-6d8c-447e-bfea-722c8284b70f")
+		)
+		(pin "5"
+			(uuid "39ad5b80-ca14-4c1b-a261-ca8373190440")
+		)
+		(pin "4"
+			(uuid "514f8943-4bce-4aea-83a0-3e294018ceb8")
+		)
+		(instances
+			(project "NerMo Electronics Stack II"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "RN2")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 158.75 88.9 90)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2490607d-47d1-4295-92f8-e1a6d81c5c18")
 		(property "Reference" "RN3"
 			(at 158.75 82.55 90)
 			(effects
@@ -4767,7 +4592,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
-			(at 158.75 86.868 90)
+			(at 158.75 90.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4812,16 +4637,102 @@
 			(uuid "b771d37d-6d8c-447e-bfea-722c8284b70d")
 		)
 		(pin "5"
-			(uuid "c90792a3-013b-4c38-b04b-1e36c954df02")
+			(uuid "6c0c8391-9919-4731-a2e6-766a80aa4740")
 		)
 		(pin "4"
-			(uuid "a60dda06-30a4-4ac6-b29f-53e8b71936ae")
+			(uuid "5fb94e1c-96b9-4b3f-b88b-3e5d7a45f752")
 		)
 		(instances
-			(project "NerMo EPS Breakout"
-				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
+			(project "NerMo Electronics Stack II"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
 					(reference "RN3")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 46.99 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26b1e3c8-48ff-47f5-ae92-a39f76a763fb")
+		(property "Reference" "RN1"
+			(at 46.99 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 46.99 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 46.99 29.972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 46.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "47ec99d3-ed6a-4cf9-bf15-4f654fc491dd")
+		)
+		(pin "6"
+			(uuid "adddb415-a10f-4a94-945a-907618ed3a12")
+		)
+		(pin "1"
+			(uuid "1a7b7466-1eb0-41d0-9ee6-102793562ee3")
+		)
+		(pin "2"
+			(uuid "a71fd24c-1203-40f5-ad03-8e5d0e27bcda")
+		)
+		(pin "3"
+			(uuid "297e355c-5ec1-4976-87c1-325876f0863a")
+		)
+		(pin "8"
+			(uuid "ce3e8bea-9781-4a95-ada5-876e68243aff")
+		)
+		(pin "5"
+			(uuid "4bd1c355-12c9-4c9f-9f6f-acff329e4d76")
+		)
+		(pin "4"
+			(uuid "16d176cc-dfdd-4c8a-98bb-51e438cff42a")
+		)
+		(instances
+			(project "NerMo Electronics Stack II"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "RN1")
+					(unit 1)
 				)
 			)
 		)
@@ -4885,181 +4796,15 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
-				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
 					(reference "#PWR020")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 158.75 27.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28a5b595-f5c6-4afc-a535-01b5d084aa11")
-		(property "Reference" "RN3"
-			(at 158.75 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 158.75 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
-			(at 158.75 25.908 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 158.75 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "47ec99d3-ed6a-4cf9-bf15-4f654fc491da")
-		)
-		(pin "6"
-			(uuid "adddb415-a10f-4a94-945a-907618ed3a0e")
-		)
-		(pin "1"
-			(uuid "d40e7c0e-6017-4df0-a3e9-a1b34e998ece")
-		)
-		(pin "2"
-			(uuid "a71fd24c-1203-40f5-ad03-8e5d0e27bcd7")
-		)
-		(pin "3"
-			(uuid "297e355c-5ec1-4976-87c1-325876f08636")
-		)
-		(pin "8"
-			(uuid "1389d4eb-dff2-4351-b688-d760dfbce3df")
-		)
-		(pin "5"
-			(uuid "4bd1c355-12c9-4c9f-9f6f-acff329e4d6f")
-		)
-		(pin "4"
-			(uuid "16d176cc-dfdd-4c8a-98bb-51e438cff423")
-		)
-		(instances
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
-					(reference "RN3")
+					(reference "#PWR020")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 101.6 88.9 270)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29fff3c0-d508-410f-a7bb-19a59aa91375")
-		(property "Reference" "RN2"
-			(at 101.6 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 101.6 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
-			(at 101.6 86.868 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 101.6 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "7af31289-7b5b-4a34-837c-21089e07a999")
-		)
-		(pin "6"
-			(uuid "45258135-f3a5-44fe-86f2-b6e3e0fc381c")
-		)
-		(pin "1"
-			(uuid "24279ff9-a13c-41a8-9b1a-5f31d8e03d9b")
-		)
-		(pin "2"
-			(uuid "d906ca64-7f5e-44c4-847a-62957032a084")
-		)
-		(pin "3"
-			(uuid "20a074b5-f367-4e70-8d3f-6df84ad7961a")
-		)
-		(pin "8"
-			(uuid "b771d37d-6d8c-447e-bfea-722c8284b70f")
-		)
-		(pin "5"
-			(uuid "a3a8b5e1-1d47-459f-bfc7-3ef6e25bc154")
-		)
-		(pin "4"
-			(uuid "a30cea01-59d2-4964-8b21-e00bb884e8a5")
-		)
-		(instances
-			(project "NerMo EPS Breakout"
-				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
-					(reference "RN2")
-					(unit 4)
 				)
 			)
 		)
@@ -5092,7 +4837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 114.3 73.66 0)
 			(effects
 				(font
@@ -5132,6 +4877,12 @@
 			(uuid "24c9d8fc-911b-42d8-8f0b-8fae474dbc26")
 		)
 		(instances
+			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "J9")
+					(unit 1)
+				)
+			)
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "J9")
@@ -5200,6 +4951,12 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "#PWR060")
 					(unit 1)
@@ -5235,7 +4992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 59.69 73.66 0)
 			(effects
 				(font
@@ -5275,6 +5032,12 @@
 			(uuid "5f47b10b-4a84-4ffc-9e9d-e0d6d26a73af")
 		)
 		(instances
+			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "J6")
+					(unit 1)
+				)
+			)
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "J6")
@@ -5342,6 +5105,12 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "#PWR057")
 					(unit 1)
@@ -5408,95 +5177,15 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
-				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
 					(reference "#PWR012")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 215.9 48.26 270)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5194a5db-4ed2-453f-b619-3a836b29ed44")
-		(property "Reference" "RN4"
-			(at 215.9 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 215.9 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
-			(at 215.9 46.228 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 215.9 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "13a90a19-cb2f-4ea8-9eb5-8123c2992c96")
-		)
-		(pin "6"
-			(uuid "adddb415-a10f-4a94-945a-907618ed3a0d")
-		)
-		(pin "1"
-			(uuid "24279ff9-a13c-41a8-9b1a-5f31d8e03d98")
-		)
-		(pin "2"
-			(uuid "be0e0831-3f71-4ad0-a60e-ccd4a9162c0c")
-		)
-		(pin "3"
-			(uuid "297e355c-5ec1-4976-87c1-325876f08635")
-		)
-		(pin "8"
-			(uuid "b771d37d-6d8c-447e-bfea-722c8284b70c")
-		)
-		(pin "5"
-			(uuid "4bd1c355-12c9-4c9f-9f6f-acff329e4d6e")
-		)
-		(pin "4"
-			(uuid "16d176cc-dfdd-4c8a-98bb-51e438cff422")
-		)
-		(instances
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
-					(reference "RN4")
-					(unit 2)
+					(reference "#PWR012")
+					(unit 1)
 				)
 			)
 		)
@@ -5559,6 +5248,12 @@
 			(uuid "d9508536-73be-49b4-a157-cad700936009")
 		)
 		(instances
+			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "#PWR013")
@@ -5626,181 +5321,15 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
-				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
 					(reference "#PWR022")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 101.6 48.26 270)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "538d1d0c-42a8-47ac-aa25-977533ab8bf9")
-		(property "Reference" "RN2"
-			(at 101.6 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 101.6 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
-			(at 101.6 46.228 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 101.6 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "8fe45062-6c15-44e8-8d34-c866b5ab6236")
-		)
-		(pin "6"
-			(uuid "adddb415-a10f-4a94-945a-907618ed3a0f")
-		)
-		(pin "1"
-			(uuid "24279ff9-a13c-41a8-9b1a-5f31d8e03d9c")
-		)
-		(pin "2"
-			(uuid "b8df05d2-b97c-433a-a15b-4200d523b475")
-		)
-		(pin "3"
-			(uuid "297e355c-5ec1-4976-87c1-325876f08637")
-		)
-		(pin "8"
-			(uuid "b771d37d-6d8c-447e-bfea-722c8284b710")
-		)
-		(pin "5"
-			(uuid "4bd1c355-12c9-4c9f-9f6f-acff329e4d71")
-		)
-		(pin "4"
-			(uuid "16d176cc-dfdd-4c8a-98bb-51e438cff425")
-		)
-		(instances
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
-					(reference "RN2")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 46.99 88.9 270)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54a0ad45-5695-4324-9913-4b0473a92788")
-		(property "Reference" "RN1"
-			(at 46.99 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 46.99 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
-			(at 46.99 86.868 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 46.99 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "7af31289-7b5b-4a34-837c-21089e07a99a")
-		)
-		(pin "6"
-			(uuid "45258135-f3a5-44fe-86f2-b6e3e0fc381d")
-		)
-		(pin "1"
-			(uuid "24279ff9-a13c-41a8-9b1a-5f31d8e03d9d")
-		)
-		(pin "2"
-			(uuid "d906ca64-7f5e-44c4-847a-62957032a085")
-		)
-		(pin "3"
-			(uuid "20a074b5-f367-4e70-8d3f-6df84ad7961b")
-		)
-		(pin "8"
-			(uuid "b771d37d-6d8c-447e-bfea-722c8284b711")
-		)
-		(pin "5"
-			(uuid "fc45410f-bcc7-4fd8-a1fa-3e9259fd94b2")
-		)
-		(pin "4"
-			(uuid "dbc71e72-57c2-4cc0-8307-dd4fd26fd57e")
-		)
-		(instances
-			(project "NerMo EPS Breakout"
-				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
-					(reference "RN1")
-					(unit 4)
+					(reference "#PWR022")
+					(unit 1)
 				)
 			)
 		)
@@ -5865,9 +5394,101 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "#PWR062")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 101.6 68.58 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6701add3-5ce7-454c-81a5-1b91f34acf5c")
+		(property "Reference" "RN2"
+			(at 101.6 62.3374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 101.6 64.8774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 101.6 70.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 101.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "7af31289-7b5b-4a34-837c-21089e07a998")
+		)
+		(pin "6"
+			(uuid "2b854285-a6b8-437c-bccb-a38020ca1fe0")
+		)
+		(pin "1"
+			(uuid "24279ff9-a13c-41a8-9b1a-5f31d8e03d9a")
+		)
+		(pin "2"
+			(uuid "d906ca64-7f5e-44c4-847a-62957032a083")
+		)
+		(pin "3"
+			(uuid "44e7561b-8383-4686-9d90-718c74996137")
+		)
+		(pin "8"
+			(uuid "b771d37d-6d8c-447e-bfea-722c8284b70e")
+		)
+		(pin "5"
+			(uuid "4bd1c355-12c9-4c9f-9f6f-acff329e4d70")
+		)
+		(pin "4"
+			(uuid "16d176cc-dfdd-4c8a-98bb-51e438cff424")
+		)
+		(instances
+			(project "NerMo Electronics Stack II"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "RN2")
+					(unit 3)
 				)
 			)
 		)
@@ -5932,6 +5553,12 @@
 			(uuid "0c4cbf7b-0bfa-4dff-85bf-d50664b87d54")
 		)
 		(instances
+			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "JP8")
+					(unit 1)
+				)
+			)
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "JP8")
@@ -5999,6 +5626,12 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "#PWR028")
 					(unit 1)
@@ -6008,16 +5641,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 101.6 27.94 270)
-		(unit 1)
+		(at 158.75 48.26 90)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "68fde295-e74f-482b-bc87-aecf3ffe6195")
-		(property "Reference" "RN2"
-			(at 101.6 21.59 90)
+		(uuid "6ae48110-6157-410d-9d56-2c728443e925")
+		(property "Reference" "RN3"
+			(at 158.75 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6025,7 +5658,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 101.6 24.13 90)
+			(at 158.75 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6033,7 +5666,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
-			(at 101.6 25.908 90)
+			(at 158.75 50.292 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6042,7 +5675,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 27.94 0)
+			(at 158.75 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6051,7 +5684,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
-			(at 101.6 27.94 0)
+			(at 158.75 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6060,34 +5693,34 @@
 			)
 		)
 		(pin "7"
-			(uuid "47ec99d3-ed6a-4cf9-bf15-4f654fc491db")
+			(uuid "0a9f5377-a783-464a-8125-8b083efd643e")
 		)
 		(pin "6"
-			(uuid "adddb415-a10f-4a94-945a-907618ed3a10")
+			(uuid "adddb415-a10f-4a94-945a-907618ed3a13")
 		)
 		(pin "1"
-			(uuid "f89d812a-70c7-4d67-b24e-15bf311af639")
+			(uuid "24279ff9-a13c-41a8-9b1a-5f31d8e03da1")
 		)
 		(pin "2"
-			(uuid "a71fd24c-1203-40f5-ad03-8e5d0e27bcd8")
+			(uuid "625f70f4-de12-40f0-a3df-3c53647a5288")
 		)
 		(pin "3"
-			(uuid "297e355c-5ec1-4976-87c1-325876f08638")
+			(uuid "297e355c-5ec1-4976-87c1-325876f0863b")
 		)
 		(pin "8"
-			(uuid "9557f0ef-6f6f-48ca-98db-01209f1fa209")
+			(uuid "b771d37d-6d8c-447e-bfea-722c8284b715")
 		)
 		(pin "5"
-			(uuid "4bd1c355-12c9-4c9f-9f6f-acff329e4d72")
+			(uuid "4bd1c355-12c9-4c9f-9f6f-acff329e4d77")
 		)
 		(pin "4"
-			(uuid "16d176cc-dfdd-4c8a-98bb-51e438cff426")
+			(uuid "16d176cc-dfdd-4c8a-98bb-51e438cff42b")
 		)
 		(instances
-			(project "NerMo EPS Breakout"
-				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
-					(reference "RN2")
-					(unit 1)
+			(project "NerMo Electronics Stack II"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "RN3")
+					(unit 2)
 				)
 			)
 		)
@@ -6151,6 +5784,12 @@
 			(uuid "23800274-3572-4e9b-9632-7590ca95d4db")
 		)
 		(instances
+			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "R18")
+					(unit 1)
+				)
+			)
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "R18")
@@ -6218,74 +5857,14 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
-				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
 					(reference "#PWR017")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 234.95 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77fd22c3-fb1e-4a11-b9ea-8f29502b3e61")
-		(property "Reference" "#PWR055"
-			(at 234.95 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 234.95 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4525c84-23c0-4b5e-a614-52717c469ccc")
-		)
-		(instances
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
-					(reference "#PWR055")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6350,94 +5929,14 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
-				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
 					(reference "#PWR07")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 215.9 27.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81915c55-739d-4e7c-89bc-baad61e35894")
-		(property "Reference" "RN4"
-			(at 215.9 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 215.9 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
-			(at 215.9 25.908 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 215.9 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "47ec99d3-ed6a-4cf9-bf15-4f654fc491dc")
-		)
-		(pin "6"
-			(uuid "adddb415-a10f-4a94-945a-907618ed3a11")
-		)
-		(pin "1"
-			(uuid "b97214d0-53d7-431f-8f2f-334c1b157e48")
-		)
-		(pin "2"
-			(uuid "a71fd24c-1203-40f5-ad03-8e5d0e27bcd9")
-		)
-		(pin "3"
-			(uuid "297e355c-5ec1-4976-87c1-325876f08639")
-		)
-		(pin "8"
-			(uuid "fb21eafa-e702-4955-adb9-16379b316122")
-		)
-		(pin "5"
-			(uuid "4bd1c355-12c9-4c9f-9f6f-acff329e4d73")
-		)
-		(pin "4"
-			(uuid "16d176cc-dfdd-4c8a-98bb-51e438cff427")
-		)
-		(instances
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
-					(reference "RN4")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6471,7 +5970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 171.45 53.34 0)
 			(effects
 				(font
@@ -6512,95 +6011,15 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
-				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
 					(reference "J12")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 46.99 68.58 270)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "842e3af6-0781-4267-86c4-e5440be3e909")
-		(property "Reference" "RN1"
-			(at 46.99 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 46.99 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
-			(at 46.99 66.548 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 46.99 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "7af31289-7b5b-4a34-837c-21089e07a99b")
-		)
-		(pin "6"
-			(uuid "0eeda617-b890-4f7b-8fa8-c97a49ba49fd")
-		)
-		(pin "1"
-			(uuid "24279ff9-a13c-41a8-9b1a-5f31d8e03d9e")
-		)
-		(pin "2"
-			(uuid "d906ca64-7f5e-44c4-847a-62957032a086")
-		)
-		(pin "3"
-			(uuid "a0a373cd-963c-4875-92b9-7df3b8687ef2")
-		)
-		(pin "8"
-			(uuid "b771d37d-6d8c-447e-bfea-722c8284b712")
-		)
-		(pin "5"
-			(uuid "4bd1c355-12c9-4c9f-9f6f-acff329e4d74")
-		)
-		(pin "4"
-			(uuid "16d176cc-dfdd-4c8a-98bb-51e438cff428")
-		)
-		(instances
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
-					(reference "RN1")
-					(unit 3)
+					(reference "J12")
+					(unit 1)
 				)
 			)
 		)
@@ -6633,7 +6052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
 			(at 228.6 73.66 0)
 			(effects
 				(font
@@ -6674,6 +6093,12 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "J17")
 					(unit 1)
@@ -6709,7 +6134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 59.69 93.98 0)
 			(effects
 				(font
@@ -6750,9 +6175,273 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "J7")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 215.9 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91c23c8a-747b-44fc-bfd9-969babbe9e6b")
+		(property "Reference" "RN4"
+			(at 215.9 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 215.9 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 215.9 29.972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 215.9 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "47ec99d3-ed6a-4cf9-bf15-4f654fc491dc")
+		)
+		(pin "6"
+			(uuid "adddb415-a10f-4a94-945a-907618ed3a11")
+		)
+		(pin "1"
+			(uuid "3cffaf84-2a94-4add-bfbb-792c7df8174a")
+		)
+		(pin "2"
+			(uuid "a71fd24c-1203-40f5-ad03-8e5d0e27bcd9")
+		)
+		(pin "3"
+			(uuid "297e355c-5ec1-4976-87c1-325876f08639")
+		)
+		(pin "8"
+			(uuid "b1371c34-053d-4b28-b5ed-f272b40d0794")
+		)
+		(pin "5"
+			(uuid "4bd1c355-12c9-4c9f-9f6f-acff329e4d73")
+		)
+		(pin "4"
+			(uuid "16d176cc-dfdd-4c8a-98bb-51e438cff427")
+		)
+		(instances
+			(project "NerMo Electronics Stack II"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "RN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 215.9 48.26 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92d32f0a-4109-476d-b384-206fa4203a88")
+		(property "Reference" "RN4"
+			(at 215.9 42.4169 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 215.9 44.9569 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 215.9 50.292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 215.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "249d343d-d231-49dd-81e4-82f1a19c07ac")
+		)
+		(pin "6"
+			(uuid "adddb415-a10f-4a94-945a-907618ed3a0d")
+		)
+		(pin "1"
+			(uuid "24279ff9-a13c-41a8-9b1a-5f31d8e03d98")
+		)
+		(pin "2"
+			(uuid "3275acd6-29ab-42d4-ae83-a3d8fb86d6dc")
+		)
+		(pin "3"
+			(uuid "297e355c-5ec1-4976-87c1-325876f08635")
+		)
+		(pin "8"
+			(uuid "b771d37d-6d8c-447e-bfea-722c8284b70c")
+		)
+		(pin "5"
+			(uuid "4bd1c355-12c9-4c9f-9f6f-acff329e4d6e")
+		)
+		(pin "4"
+			(uuid "16d176cc-dfdd-4c8a-98bb-51e438cff422")
+		)
+		(instances
+			(project "NerMo Electronics Stack II"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "RN4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 215.9 88.9 90)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94ff74d8-f30c-417d-907f-c4b02e8efe57")
+		(property "Reference" "RN4"
+			(at 215.9 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 215.9 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 215.9 90.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 215.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "7af31289-7b5b-4a34-837c-21089e07a99d")
+		)
+		(pin "6"
+			(uuid "45258135-f3a5-44fe-86f2-b6e3e0fc381e")
+		)
+		(pin "1"
+			(uuid "24279ff9-a13c-41a8-9b1a-5f31d8e03da0")
+		)
+		(pin "2"
+			(uuid "d906ca64-7f5e-44c4-847a-62957032a088")
+		)
+		(pin "3"
+			(uuid "20a074b5-f367-4e70-8d3f-6df84ad7961c")
+		)
+		(pin "8"
+			(uuid "b771d37d-6d8c-447e-bfea-722c8284b714")
+		)
+		(pin "5"
+			(uuid "9e0e087c-6400-4451-9fbf-25dad9d23b35")
+		)
+		(pin "4"
+			(uuid "e7ea651d-5620-4786-b4d1-d7fa8b1ee0bb")
+		)
+		(instances
+			(project "NerMo Electronics Stack II"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "RN4")
+					(unit 4)
 				)
 			)
 		)
@@ -6815,6 +6504,12 @@
 			(uuid "54d22961-afaf-4964-abc0-283d02fde690")
 		)
 		(instances
+			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "#PWR025")
@@ -6884,6 +6579,12 @@
 		)
 		(instances
 			(project ""
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "JP3")
 					(unit 1)
@@ -6919,7 +6620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 59.69 53.34 0)
 			(effects
 				(font
@@ -6960,8 +6661,100 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 158.75 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2c228bd-b42c-4f6e-b84b-f18ab0e6b94b")
+		(property "Reference" "RN3"
+			(at 158.75 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 158.75 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 158.75 29.972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 158.75 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "47ec99d3-ed6a-4cf9-bf15-4f654fc491da")
+		)
+		(pin "6"
+			(uuid "adddb415-a10f-4a94-945a-907618ed3a0e")
+		)
+		(pin "1"
+			(uuid "7fb96858-4f46-4f4e-91e2-3beb802fd08a")
+		)
+		(pin "2"
+			(uuid "a71fd24c-1203-40f5-ad03-8e5d0e27bcd7")
+		)
+		(pin "3"
+			(uuid "297e355c-5ec1-4976-87c1-325876f08636")
+		)
+		(pin "8"
+			(uuid "ebb81aff-a6f5-47e7-9e72-dd4f3dfc3c7b")
+		)
+		(pin "5"
+			(uuid "4bd1c355-12c9-4c9f-9f6f-acff329e4d6f")
+		)
+		(pin "4"
+			(uuid "16d176cc-dfdd-4c8a-98bb-51e438cff423")
+		)
+		(instances
+			(project "NerMo Electronics Stack II"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "RN3")
 					(unit 1)
 				)
 			)
@@ -6995,7 +6788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
 			(at 228.6 53.34 0)
 			(effects
 				(font
@@ -7035,6 +6828,12 @@
 			(uuid "d0a32440-ae6a-44a9-8a4a-2a561a2eabcb")
 		)
 		(instances
+			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "J16")
+					(unit 1)
+				)
+			)
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "J16")
@@ -7102,164 +6901,14 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
-				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
 					(reference "#PWR040")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 158.75 68.58 270)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aab8c83a-6508-4409-b8fe-f4acd0775ac7")
-		(property "Reference" "RN3"
-			(at 158.75 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 158.75 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
-			(at 158.75 66.548 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 158.75 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "7af31289-7b5b-4a34-837c-21089e07a99c")
-		)
-		(pin "6"
-			(uuid "52811cdb-793e-4518-a148-706b3832e9bb")
-		)
-		(pin "1"
-			(uuid "24279ff9-a13c-41a8-9b1a-5f31d8e03d9f")
-		)
-		(pin "2"
-			(uuid "d906ca64-7f5e-44c4-847a-62957032a087")
-		)
-		(pin "3"
-			(uuid "f5d0b6a2-edad-4bdc-82ad-7d911a977caf")
-		)
-		(pin "8"
-			(uuid "b771d37d-6d8c-447e-bfea-722c8284b713")
-		)
-		(pin "5"
-			(uuid "4bd1c355-12c9-4c9f-9f6f-acff329e4d75")
-		)
-		(pin "4"
-			(uuid "16d176cc-dfdd-4c8a-98bb-51e438cff429")
-		)
-		(instances
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
-					(reference "RN3")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 234.95 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad5ceb26-5aaa-4e43-8ddf-558fb02aaa5d")
-		(property "Reference" "C5"
-			(at 238.76 138.8109 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470 µF"
-			(at 238.76 141.3509 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x3"
-			(at 235.9152 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 234.95 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "38f41099-01d0-4f3b-98ca-ba6c905f995b")
-		)
-		(pin "1"
-			(uuid "6b9e350c-ac97-4169-b1a0-6c7e95993aa9")
-		)
-		(instances
-			(project ""
-				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
-					(reference "C5")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -7324,9 +6973,101 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "#PWR09")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 46.99 68.58 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba100e26-6815-4b27-9dcc-8c2a4693350b")
+		(property "Reference" "RN1"
+			(at 46.99 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 46.99 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 46.99 70.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 46.99 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "7af31289-7b5b-4a34-837c-21089e07a99b")
+		)
+		(pin "6"
+			(uuid "0a9149fd-68d6-48d8-9b02-8cff60f73432")
+		)
+		(pin "1"
+			(uuid "24279ff9-a13c-41a8-9b1a-5f31d8e03d9e")
+		)
+		(pin "2"
+			(uuid "d906ca64-7f5e-44c4-847a-62957032a086")
+		)
+		(pin "3"
+			(uuid "f6943112-e82b-41a8-86ab-3afee196a467")
+		)
+		(pin "8"
+			(uuid "b771d37d-6d8c-447e-bfea-722c8284b712")
+		)
+		(pin "5"
+			(uuid "4bd1c355-12c9-4c9f-9f6f-acff329e4d74")
+		)
+		(pin "4"
+			(uuid "16d176cc-dfdd-4c8a-98bb-51e438cff428")
+		)
+		(instances
+			(project "NerMo Electronics Stack II"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "RN1")
+					(unit 3)
 				)
 			)
 		)
@@ -7359,7 +7100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 171.45 33.02 0)
 			(effects
 				(font
@@ -7399,6 +7140,12 @@
 			(uuid "c33d70dd-8c3f-4556-827d-bd515b77a52c")
 		)
 		(instances
+			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "J11")
+					(unit 1)
+				)
+			)
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "J11")
@@ -7466,6 +7213,12 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "#PWR039")
 					(unit 1)
@@ -7531,6 +7284,12 @@
 			(uuid "828f9ed7-ef0c-42a2-84fa-75efca2959b6")
 		)
 		(instances
+			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "#PWR041")
@@ -7599,94 +7358,14 @@
 		)
 		(instances
 			(project ""
-				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
 					(reference "#PWR06")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 46.99 27.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c141d36b-383f-4c5e-88b6-a4204e5b3572")
-		(property "Reference" "RN1"
-			(at 46.99 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 46.99 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
-			(at 46.99 25.908 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 46.99 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "47ec99d3-ed6a-4cf9-bf15-4f654fc491dd")
-		)
-		(pin "6"
-			(uuid "adddb415-a10f-4a94-945a-907618ed3a12")
-		)
-		(pin "1"
-			(uuid "2dfd3c04-084d-4781-9cdf-d4e40507ae81")
-		)
-		(pin "2"
-			(uuid "a71fd24c-1203-40f5-ad03-8e5d0e27bcda")
-		)
-		(pin "3"
-			(uuid "297e355c-5ec1-4976-87c1-325876f0863a")
-		)
-		(pin "8"
-			(uuid "fe560764-e4f6-4015-8b6d-d83d4ac23a4b")
-		)
-		(pin "5"
-			(uuid "4bd1c355-12c9-4c9f-9f6f-acff329e4d76")
-		)
-		(pin "4"
-			(uuid "16d176cc-dfdd-4c8a-98bb-51e438cff42a")
-		)
-		(instances
-			(project "NerMo EPS Breakout"
+			(project ""
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
-					(reference "RN1")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7720,7 +7399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 59.69 33.02 0)
 			(effects
 				(font
@@ -7761,9 +7440,187 @@
 		)
 		(instances
 			(project ""
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "J3")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 215.9 68.58 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5a9f6ae-d7b6-49b7-97dc-969cc272001c")
+		(property "Reference" "RN4"
+			(at 215.9 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 215.9 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 215.9 70.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 215.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "7af31289-7b5b-4a34-837c-21089e07a99e")
+		)
+		(pin "6"
+			(uuid "9194b605-194d-48f4-b956-b8005de79f9a")
+		)
+		(pin "1"
+			(uuid "24279ff9-a13c-41a8-9b1a-5f31d8e03da2")
+		)
+		(pin "2"
+			(uuid "d906ca64-7f5e-44c4-847a-62957032a089")
+		)
+		(pin "3"
+			(uuid "3f965d7c-80ab-4e3d-9e0a-1f71f861708b")
+		)
+		(pin "8"
+			(uuid "b771d37d-6d8c-447e-bfea-722c8284b716")
+		)
+		(pin "5"
+			(uuid "4bd1c355-12c9-4c9f-9f6f-acff329e4d78")
+		)
+		(pin "4"
+			(uuid "16d176cc-dfdd-4c8a-98bb-51e438cff42c")
+		)
+		(instances
+			(project "NerMo Electronics Stack II"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "RN4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 46.99 48.26 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c922e919-8e3c-410b-ab81-6b2852de17bd")
+		(property "Reference" "RN1"
+			(at 46.99 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 46.99 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 46.99 50.292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 46.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "f0c706ec-160c-45fe-bd96-b9b8cbb9649f")
+		)
+		(pin "6"
+			(uuid "adddb415-a10f-4a94-945a-907618ed3a14")
+		)
+		(pin "1"
+			(uuid "24279ff9-a13c-41a8-9b1a-5f31d8e03da3")
+		)
+		(pin "2"
+			(uuid "d4eab3ed-ecc1-43e1-9abf-d12365df82ef")
+		)
+		(pin "3"
+			(uuid "297e355c-5ec1-4976-87c1-325876f0863c")
+		)
+		(pin "8"
+			(uuid "b771d37d-6d8c-447e-bfea-722c8284b717")
+		)
+		(pin "5"
+			(uuid "4bd1c355-12c9-4c9f-9f6f-acff329e4d79")
+		)
+		(pin "4"
+			(uuid "16d176cc-dfdd-4c8a-98bb-51e438cff42d")
+		)
+		(instances
+			(project "NerMo Electronics Stack II"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "RN1")
+					(unit 2)
 				)
 			)
 		)
@@ -7796,7 +7653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 171.45 73.66 0)
 			(effects
 				(font
@@ -7836,6 +7693,12 @@
 			(uuid "865ddb8f-61f1-49c0-8119-70a172b45ae4")
 		)
 		(instances
+			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "J13")
+					(unit 1)
+				)
+			)
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "J13")
@@ -7903,6 +7766,12 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "#PWR042")
 					(unit 1)
@@ -7969,6 +7838,12 @@
 			(uuid "d04c610d-bcf2-4eff-9b89-14cb004fbafe")
 		)
 		(instances
+			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "#PWR063")
@@ -8038,9 +7913,101 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "JP6")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 101.6 48.26 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce202643-eb28-452e-9ab8-f8636bd2fc3f")
+		(property "Reference" "RN2"
+			(at 101.6 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 101.6 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 101.6 50.292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 101.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "5cd5ec7c-c6c8-467a-94a2-e5ba3fbc4943")
+		)
+		(pin "6"
+			(uuid "adddb415-a10f-4a94-945a-907618ed3a0f")
+		)
+		(pin "1"
+			(uuid "24279ff9-a13c-41a8-9b1a-5f31d8e03d9c")
+		)
+		(pin "2"
+			(uuid "bdd52e99-7957-4340-982d-3f11b988a4ad")
+		)
+		(pin "3"
+			(uuid "297e355c-5ec1-4976-87c1-325876f08637")
+		)
+		(pin "8"
+			(uuid "b771d37d-6d8c-447e-bfea-722c8284b710")
+		)
+		(pin "5"
+			(uuid "4bd1c355-12c9-4c9f-9f6f-acff329e4d71")
+		)
+		(pin "4"
+			(uuid "16d176cc-dfdd-4c8a-98bb-51e438cff425")
+		)
+		(instances
+			(project "NerMo Electronics Stack II"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "RN2")
+					(unit 2)
 				)
 			)
 		)
@@ -8073,7 +8040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 114.3 93.98 0)
 			(effects
 				(font
@@ -8114,6 +8081,12 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "J10")
 					(unit 1)
@@ -8149,7 +8122,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 114.3 33.02 0)
 			(effects
 				(font
@@ -8189,6 +8162,12 @@
 			(uuid "8eb3ddf5-bf7e-4aaa-9038-75a2376fe24f")
 		)
 		(instances
+			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "J1")
@@ -8257,6 +8236,12 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "R16")
 					(unit 1)
@@ -8292,7 +8277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
 			(at 228.6 93.98 0)
 			(effects
 				(font
@@ -8333,6 +8318,12 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "J18")
 					(unit 1)
@@ -8368,7 +8359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 171.45 93.98 0)
 			(effects
 				(font
@@ -8408,6 +8399,12 @@
 			(uuid "70326d96-1c0d-4386-9354-cee525357cdd")
 		)
 		(instances
+			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "J14")
+					(unit 1)
+				)
+			)
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "J14")
@@ -8476,6 +8473,12 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "R15")
 					(unit 1)
@@ -8542,95 +8545,15 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
-				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
 					(reference "#PWR026")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 215.9 88.9 270)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d451fc12-371a-4abd-aa82-7150ca074437")
-		(property "Reference" "RN4"
-			(at 215.9 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 215.9 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
-			(at 215.9 86.868 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 215.9 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "7af31289-7b5b-4a34-837c-21089e07a99d")
-		)
-		(pin "6"
-			(uuid "45258135-f3a5-44fe-86f2-b6e3e0fc381e")
-		)
-		(pin "1"
-			(uuid "24279ff9-a13c-41a8-9b1a-5f31d8e03da0")
-		)
-		(pin "2"
-			(uuid "d906ca64-7f5e-44c4-847a-62957032a088")
-		)
-		(pin "3"
-			(uuid "20a074b5-f367-4e70-8d3f-6df84ad7961c")
-		)
-		(pin "8"
-			(uuid "b771d37d-6d8c-447e-bfea-722c8284b714")
-		)
-		(pin "5"
-			(uuid "e9dfa5f4-e56d-4109-a63c-bc64a857d751")
-		)
-		(pin "4"
-			(uuid "b1044c36-39c0-4abb-b6f9-a0fc65383474")
-		)
-		(instances
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
-					(reference "RN4")
-					(unit 4)
+					(reference "#PWR026")
+					(unit 1)
 				)
 			)
 		)
@@ -8695,6 +8618,12 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "C4")
 					(unit 1)
@@ -8704,16 +8633,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 158.75 48.26 270)
-		(unit 2)
+		(at 158.75 68.58 90)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dbb40d71-8100-4fce-ad13-b8c6b020841f")
+		(uuid "d9eaee7a-9f9f-4951-943e-1a094dd8502e")
 		(property "Reference" "RN3"
-			(at 158.75 41.91 90)
+			(at 158.75 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8721,7 +8650,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 158.75 44.45 90)
+			(at 158.75 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8729,7 +8658,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
-			(at 158.75 46.228 90)
+			(at 158.75 70.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8738,7 +8667,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 48.26 0)
+			(at 158.75 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8747,7 +8676,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
-			(at 158.75 48.26 0)
+			(at 158.75 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8756,34 +8685,120 @@
 			)
 		)
 		(pin "7"
-			(uuid "8649921a-b472-4915-89b4-acd84ee08f1d")
+			(uuid "7af31289-7b5b-4a34-837c-21089e07a99c")
 		)
 		(pin "6"
-			(uuid "adddb415-a10f-4a94-945a-907618ed3a13")
+			(uuid "de189977-5a5e-4c6e-9697-9ddb04262836")
 		)
 		(pin "1"
-			(uuid "24279ff9-a13c-41a8-9b1a-5f31d8e03da1")
+			(uuid "24279ff9-a13c-41a8-9b1a-5f31d8e03d9f")
 		)
 		(pin "2"
-			(uuid "34555515-128a-4a41-99b7-69c55d614adb")
+			(uuid "d906ca64-7f5e-44c4-847a-62957032a087")
 		)
 		(pin "3"
-			(uuid "297e355c-5ec1-4976-87c1-325876f0863b")
+			(uuid "4f15d11c-e291-4cfb-8f70-f10629685446")
 		)
 		(pin "8"
-			(uuid "b771d37d-6d8c-447e-bfea-722c8284b715")
+			(uuid "b771d37d-6d8c-447e-bfea-722c8284b713")
 		)
 		(pin "5"
-			(uuid "4bd1c355-12c9-4c9f-9f6f-acff329e4d77")
+			(uuid "4bd1c355-12c9-4c9f-9f6f-acff329e4d75")
 		)
 		(pin "4"
-			(uuid "16d176cc-dfdd-4c8a-98bb-51e438cff42b")
+			(uuid "16d176cc-dfdd-4c8a-98bb-51e438cff429")
 		)
 		(instances
-			(project "NerMo EPS Breakout"
-				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
+			(project "NerMo Electronics Stack II"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
 					(reference "RN3")
-					(unit 2)
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 101.6 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcb75cea-0fa2-4f55-887c-ccb8444fbbf9")
+		(property "Reference" "RN2"
+			(at 101.6 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 101.6 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 101.6 29.972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 101.6 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "47ec99d3-ed6a-4cf9-bf15-4f654fc491db")
+		)
+		(pin "6"
+			(uuid "adddb415-a10f-4a94-945a-907618ed3a10")
+		)
+		(pin "1"
+			(uuid "17eadfb7-6f3e-4505-85ce-29c6c27e79cd")
+		)
+		(pin "2"
+			(uuid "a71fd24c-1203-40f5-ad03-8e5d0e27bcd8")
+		)
+		(pin "3"
+			(uuid "297e355c-5ec1-4976-87c1-325876f08638")
+		)
+		(pin "8"
+			(uuid "c83b295d-91ee-4998-aefb-b46b98b44e23")
+		)
+		(pin "5"
+			(uuid "4bd1c355-12c9-4c9f-9f6f-acff329e4d72")
+		)
+		(pin "4"
+			(uuid "16d176cc-dfdd-4c8a-98bb-51e438cff426")
+		)
+		(instances
+			(project "NerMo Electronics Stack II"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "RN2")
+					(unit 1)
 				)
 			)
 		)
@@ -8847,6 +8862,12 @@
 			(uuid "4553032c-90d6-4ec6-8a41-66527a182178")
 		)
 		(instances
+			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "R17")
+					(unit 1)
+				)
+			)
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "R17")
@@ -8913,6 +8934,12 @@
 			(uuid "be4f6d78-9920-4f5c-8198-90fbfb03d542")
 		)
 		(instances
+			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "#PWR021")
@@ -8981,95 +9008,15 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
-				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
 					(reference "R13")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 215.9 68.58 270)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2f5d35d-3725-4ddb-b554-18aa17da5849")
-		(property "Reference" "RN4"
-			(at 215.9 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 215.9 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
-			(at 215.9 66.548 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 215.9 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "7af31289-7b5b-4a34-837c-21089e07a99e")
-		)
-		(pin "6"
-			(uuid "71e76f3c-2b05-4ff0-8085-712942f21a85")
-		)
-		(pin "1"
-			(uuid "24279ff9-a13c-41a8-9b1a-5f31d8e03da2")
-		)
-		(pin "2"
-			(uuid "d906ca64-7f5e-44c4-847a-62957032a089")
-		)
-		(pin "3"
-			(uuid "417ca862-f13a-446b-88db-915f8a2fef4d")
-		)
-		(pin "8"
-			(uuid "b771d37d-6d8c-447e-bfea-722c8284b716")
-		)
-		(pin "5"
-			(uuid "4bd1c355-12c9-4c9f-9f6f-acff329e4d78")
-		)
-		(pin "4"
-			(uuid "16d176cc-dfdd-4c8a-98bb-51e438cff42c")
-		)
-		(instances
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
-					(reference "RN4")
-					(unit 3)
+					(reference "R13")
+					(unit 1)
 				)
 			)
 		)
@@ -9102,7 +9049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
 			(at 228.6 33.02 0)
 			(effects
 				(font
@@ -9142,6 +9089,12 @@
 			(uuid "90aaea8b-9b08-4c4d-8859-be0da4b18a36")
 		)
 		(instances
+			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "J15")
+					(unit 1)
+				)
+			)
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "J15")
@@ -9292,95 +9245,15 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
-				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
 					(reference "U5")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 46.99 48.26 270)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9415951-ff18-49a6-8de8-79b6d51e4cd9")
-		(property "Reference" "RN1"
-			(at 46.99 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 46.99 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
-			(at 46.99 46.228 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 46.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "95c8aa7a-ee63-482c-aa4c-a3cfe2ed12fe")
-		)
-		(pin "6"
-			(uuid "adddb415-a10f-4a94-945a-907618ed3a14")
-		)
-		(pin "1"
-			(uuid "24279ff9-a13c-41a8-9b1a-5f31d8e03da3")
-		)
-		(pin "2"
-			(uuid "924320ae-e214-4ec1-a933-efc0c0378129")
-		)
-		(pin "3"
-			(uuid "297e355c-5ec1-4976-87c1-325876f0863c")
-		)
-		(pin "8"
-			(uuid "b771d37d-6d8c-447e-bfea-722c8284b717")
-		)
-		(pin "5"
-			(uuid "4bd1c355-12c9-4c9f-9f6f-acff329e4d79")
-		)
-		(pin "4"
-			(uuid "16d176cc-dfdd-4c8a-98bb-51e438cff42d")
-		)
-		(instances
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
-					(reference "RN1")
-					(unit 2)
+					(reference "U5")
+					(unit 1)
 				)
 			)
 		)
@@ -9443,6 +9316,12 @@
 			(uuid "0a3ad7a9-fbfc-408e-8b5a-e8c206e7c20c")
 		)
 		(instances
+			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "#PWR027")
@@ -9512,6 +9391,12 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "JP7")
+					(unit 1)
+				)
+			)
+			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "JP7")
 					(unit 1)
@@ -9580,6 +9465,12 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "JP4")
 					(unit 1)
@@ -9647,9 +9538,101 @@
 		)
 		(instances
 			(project "NerMo EPS Breakout"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/b1e5ae4f-6355-4782-8c1d-0cc548c58070"
 					(reference "#PWR058")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 46.99 88.9 90)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff9f920b-14dd-4e07-95b3-3b286b8c60e3")
+		(property "Reference" "RN1"
+			(at 46.99 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 46.99 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 46.99 90.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 46.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "7af31289-7b5b-4a34-837c-21089e07a99a")
+		)
+		(pin "6"
+			(uuid "45258135-f3a5-44fe-86f2-b6e3e0fc381d")
+		)
+		(pin "1"
+			(uuid "24279ff9-a13c-41a8-9b1a-5f31d8e03d9d")
+		)
+		(pin "2"
+			(uuid "d906ca64-7f5e-44c4-847a-62957032a085")
+		)
+		(pin "3"
+			(uuid "20a074b5-f367-4e70-8d3f-6df84ad7961b")
+		)
+		(pin "8"
+			(uuid "b771d37d-6d8c-447e-bfea-722c8284b711")
+		)
+		(pin "5"
+			(uuid "4c844541-7ced-444f-85a4-f1fe502cb758")
+		)
+		(pin "4"
+			(uuid "50f8ba11-c427-44ee-a4c0-1012b2ef44db")
+		)
+		(instances
+			(project "NerMo Electronics Stack II"
+				(path "/39dca41c-80f9-47b6-a9d6-5e39413b947c/a51c9709-1454-48ce-8eb3-8ae443d05ad0"
+					(reference "RN1")
+					(unit 4)
 				)
 			)
 		)
