@@ -195,6 +195,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Custom_Modules:DCDC_Buck_Module"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -657,6 +764,167 @@
 				)
 			)
 			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -2628,6 +2896,18 @@
 		(uuid 69e4824f-16f2-4588-9267-25de1cc677c9)
 	)
 	(rectangle
+		(start 19.05 166.37)
+		(end 171.45 182.88)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6df05976-3af3-48dc-9ff7-2e2b7c701adc)
+	)
+	(rectangle
 		(start 224.79 29.21)
 		(end 269.24 69.85)
 		(stroke
@@ -2638,6 +2918,18 @@
 			(type none)
 		)
 		(uuid 7260ae8e-483c-463a-a800-c7fa724fd10c)
+	)
+	(rectangle
+		(start 232.41 35.56)
+		(end 251.46 66.04)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9cc4f6cc-d72e-42f2-ae0b-6888d143bbd5)
 	)
 	(rectangle
 		(start 205.74 29.21)
@@ -2715,6 +3007,16 @@
 		)
 		(uuid "42851925-e3d9-4dc9-a805-f7cebb40f513")
 	)
+	(text "Test Points"
+		(exclude_from_sim no)
+		(at 24.13 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "849f0a6b-f611-4156-ab9b-d7b2c59f57dd")
+	)
 	(text "5V 3A Buck Converter"
 		(exclude_from_sim no)
 		(at 61.468 76.2 0)
@@ -2724,6 +3026,16 @@
 			)
 		)
 		(uuid "916d49cb-7fb6-402f-950d-1a3b85b14876")
+	)
+	(text "Bulk Filtering Capacitor"
+		(exclude_from_sim no)
+		(at 242.062 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a2a7fa87-b301-4dff-9572-c109292890ce")
 	)
 	(text "Internal Connection"
 		(exclude_from_sim no)
@@ -3237,6 +3549,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 177.8) (xy 39.37 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b04f298-4e45-4def-ad99-802067496828")
+	)
+	(wire
+		(pts
 			(xy 193.04 101.6) (xy 193.04 104.14)
 		)
 		(stroke
@@ -3347,6 +3669,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 177.8) (xy 123.19 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bb5e4b3-5acc-481a-be6f-e2411abaa5f8")
+	)
+	(wire
+		(pts
 			(xy 251.46 125.73) (xy 251.46 120.65)
 		)
 		(stroke
@@ -3434,6 +3766,16 @@
 			(type default)
 		)
 		(uuid "8ef9b204-3cd0-4459-b27a-979f557e2f31")
+	)
+	(wire
+		(pts
+			(xy 69.85 177.8) (xy 66.04 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f60d08-a965-4580-8f27-9de525073a86")
 	)
 	(wire
 		(pts
@@ -3637,6 +3979,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 58.42) (xy 238.76 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c84bc5ae-bcea-4a85-a305-af39f0a554c7")
+	)
+	(wire
+		(pts
 			(xy 49.53 49.53) (xy 50.8 49.53)
 		)
 		(stroke
@@ -3747,6 +4099,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 177.8) (xy 95.25 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df58db57-0c67-47ec-b6c4-58899ac5e814")
+	)
+	(wire
+		(pts
 			(xy 78.74 146.05) (xy 78.74 147.32)
 		)
 		(stroke
@@ -3777,6 +4139,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 177.8) (xy 148.59 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d4f25f-e078-4fcb-a38d-a139f32dc9ee")
+	)
+	(wire
+		(pts
 			(xy 72.39 48.26) (xy 71.12 48.26)
 		)
 		(stroke
@@ -3794,6 +4166,16 @@
 			(type default)
 		)
 		(uuid "ed953f8c-0cc9-4df4-8605-4f85fc96b54d")
+	)
+	(wire
+		(pts
+			(xy 238.76 44.45) (xy 238.76 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0c98ab9-3578-411b-8dba-dbae40cb558d")
 	)
 	(wire
 		(pts
@@ -4023,7 +4405,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 36.83 90)
+		(at 260.35 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4032,7 +4414,7 @@
 		(fields_autoplaced yes)
 		(uuid "02404acf-306c-4780-8b93-bcb6b67c0e66")
 		(property "Reference" "#PWR09"
-			(at 242.57 36.83 0)
+			(at 260.35 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4041,7 +4423,7 @@
 			)
 		)
 		(property "Value" "BAT_GND"
-			(at 240.03 36.8299 90)
+			(at 260.3499 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4050,7 +4432,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 36.83 0)
+			(at 260.35 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4059,7 +4441,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 36.83 0)
+			(at 260.35 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4068,7 +4450,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 36.83 0)
+			(at 260.35 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4630,6 +5012,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 238.76 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f09c6f6-be25-4b24-a8f4-bf88340c8896")
+		(property "Reference" "#PWR012"
+			(at 238.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 238.7601 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 238.76 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6529a86d-c35f-475a-998b-0d9cceebaf0d")
+		)
+		(instances
+			(project "NerMo Electronics Stack I"
+				(path "/720463a8-281c-47ea-bb86-cc648ee40514/6430d596-60a3-4a0f-a1d3-e3b4330896e7"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+6V")
+		(at 151.13 177.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b0e52cf-da23-4c7b-be74-85647302d636")
+		(property "Reference" "#PWR041"
+			(at 147.32 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBAT"
+			(at 154.94 177.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+6V\""
+			(at 151.13 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00928c02-cf9a-47cb-a76d-9e90867fcf39")
+		)
+		(instances
+			(project "NerMo Electronics Stack I"
+				(path "/720463a8-281c-47ea-bb86-cc648ee40514/6430d596-60a3-4a0f-a1d3-e3b4330896e7"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 165.1 139.7 90)
 		(unit 1)
@@ -4691,6 +5207,73 @@
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/6430d596-60a3-4a0f-a1d3-e3b4330896e7"
 					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 99.06 177.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b6186a8-af18-49da-8286-9cd14ef99017")
+		(property "Reference" "#PWR039"
+			(at 95.25 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 102.87 177.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 99.06 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dad05cee-f1d1-4247-8711-f4176186e610")
+		)
+		(instances
+			(project "NerMo Electronics Stack I"
+				(path "/720463a8-281c-47ea-bb86-cc648ee40514/6430d596-60a3-4a0f-a1d3-e3b4330896e7"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -5099,6 +5682,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+6V")
+		(at 127 177.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "373e9728-651d-489d-b73f-4ddc5b723b5e")
+		(property "Reference" "#PWR040"
+			(at 123.19 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+6V"
+			(at 130.81 177.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+6V\""
+			(at 127 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "816b7b81-58a4-4661-8e73-1305f6e08dd3")
+		)
+		(instances
+			(project "NerMo Electronics Stack I"
+				(path "/720463a8-281c-47ea-bb86-cc648ee40514/6430d596-60a3-4a0f-a1d3-e3b4330896e7"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 161.29 139.7 90)
 		(unit 1)
@@ -5500,7 +6150,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 36.83 270)
+		(at 260.35 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5509,7 +6159,7 @@
 		(fields_autoplaced yes)
 		(uuid "46411e0f-ea08-4192-be89-376cd1a9e7f9")
 		(property "Reference" "#PWR07"
-			(at 229.87 36.83 0)
+			(at 260.35 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5518,7 +6168,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 232.41 36.8299 90)
+			(at 260.3499 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5527,7 +6177,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 36.83 0)
+			(at 260.35 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5536,7 +6186,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 36.83 0)
+			(at 260.35 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5545,7 +6195,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 36.83 0)
+			(at 260.35 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5560,6 +6210,72 @@
 			(project "NerMo Electronics Stack I"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/6430d596-60a3-4a0f-a1d3-e3b4330896e7"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 69.85 177.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a28bd05-b9d5-4b88-af84-405b83c963d0")
+		(property "Reference" "#PWR028"
+			(at 66.04 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 73.152 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 69.85 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb0bd944-3408-42f2-81a9-4632f36ecd82")
+		)
+		(instances
+			(project "NerMo Electronics Stack I"
+				(path "/720463a8-281c-47ea-bb86-cc648ee40514/6430d596-60a3-4a0f-a1d3-e3b4330896e7"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -5760,6 +6476,71 @@
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/6430d596-60a3-4a0f-a1d3-e3b4330896e7"
 					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 148.59 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57ad88a7-1c30-425f-b780-fbadf9c5c79a")
+		(property "Reference" "TP4"
+			(at 145.288 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBAT Test Point"
+			(at 145.288 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 148.59 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74037861-01a1-4fd0-9226-58d70d6b40af")
+		)
+		(instances
+			(project "NerMo Electronics Stack I"
+				(path "/720463a8-281c-47ea-bb86-cc648ee40514/6430d596-60a3-4a0f-a1d3-e3b4330896e7"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -6172,6 +6953,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 66.04 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d9397a5-fde9-4d9b-862f-d4a8a20bc639")
+		(property "Reference" "TP2"
+			(at 62.738 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3 Test Point"
+			(at 62.738 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 66.04 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 66.04 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c495fbac-8952-449c-aeab-68db6cee60c1")
+		)
+		(instances
+			(project "NerMo Electronics Stack I"
+				(path "/720463a8-281c-47ea-bb86-cc648ee40514/6430d596-60a3-4a0f-a1d3-e3b4330896e7"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 39.37 146.05 90)
 		(unit 1)
@@ -6369,6 +7215,72 @@
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/6430d596-60a3-4a0f-a1d3-e3b4330896e7"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 238.76 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77fd22c3-fb1e-4a11-b9ea-8f29502b3e61")
+		(property "Reference" "#PWR055"
+			(at 238.76 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4525c84-23c0-4b5e-a614-52717c469ccc")
+		)
+		(instances
+			(project "NerMo Electronics Stack I"
+				(path "/720463a8-281c-47ea-bb86-cc648ee40514/6430d596-60a3-4a0f-a1d3-e3b4330896e7"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -7190,6 +8102,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 238.76 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad5ceb26-5aaa-4e43-8ddf-558fb02aaa5d")
+		(property "Reference" "C5"
+			(at 242.57 48.6409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470 µF"
+			(at 242.57 51.1809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x3"
+			(at 239.7252 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 238.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "38f41099-01d0-4f3b-98ca-ba6c905f995b")
+		)
+		(pin "1"
+			(uuid "6b9e350c-ac97-4169-b1a0-6c7e95993aa9")
+		)
+		(instances
+			(project "NerMo Electronics Stack I"
+				(path "/720463a8-281c-47ea-bb86-cc648ee40514/6430d596-60a3-4a0f-a1d3-e3b4330896e7"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 123.19 43.18 90)
 		(unit 1)
@@ -7529,6 +8511,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 95.25 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb7d5561-d49f-49be-a438-169e6018b750")
+		(property "Reference" "TP1"
+			(at 91.948 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V Test Point"
+			(at 91.948 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 95.25 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 95.25 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "509a0929-a15d-491f-873a-48bf1d9f3ec7")
+		)
+		(instances
+			(project "NerMo Electronics Stack I"
+				(path "/720463a8-281c-47ea-bb86-cc648ee40514/6430d596-60a3-4a0f-a1d3-e3b4330896e7"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+6V")
 		(at 49.53 41.91 90)
 		(unit 1)
@@ -7729,6 +8776,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 123.19 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd1f67cb-f89c-4c55-bc94-4997a2e2d725")
+		(property "Reference" "TP3"
+			(at 119.888 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6V Test Point"
+			(at 119.888 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 123.19 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 123.19 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce81f7fd-136b-4930-b351-22745adfa054")
+		)
+		(instances
+			(project "NerMo Electronics Stack I"
+				(path "/720463a8-281c-47ea-bb86-cc648ee40514/6430d596-60a3-4a0f-a1d3-e3b4330896e7"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 173.99 114.3 90)
 		(unit 1)
@@ -7857,6 +8968,71 @@
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/6430d596-60a3-4a0f-a1d3-e3b4330896e7"
 					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 39.37 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dde1b989-b41d-45f6-8c05-a9dd9e23ed50")
+		(property "Reference" "TP5"
+			(at 36.068 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND Test Point"
+			(at 36.068 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 39.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 39.37 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46e1b39e-508b-4989-aa18-a1d0c718cd90")
+		)
+		(instances
+			(project "NerMo Electronics Stack I"
+				(path "/720463a8-281c-47ea-bb86-cc648ee40514/6430d596-60a3-4a0f-a1d3-e3b4330896e7"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -8056,6 +9232,73 @@
 			(project "NerMo EPS Breakout"
 				(path "/720463a8-281c-47ea-bb86-cc648ee40514/6430d596-60a3-4a0f-a1d3-e3b4330896e7"
 					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 41.91 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8fcd5d2-fd44-428b-869a-e6e55bb4a869")
+		(property "Reference" "#PWR038"
+			(at 48.26 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 177.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe94e8b7-166d-45b1-99c7-99ff6ef9795d")
+		)
+		(instances
+			(project "NerMo Electronics Stack I"
+				(path "/720463a8-281c-47ea-bb86-cc648ee40514/6430d596-60a3-4a0f-a1d3-e3b4330896e7"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
